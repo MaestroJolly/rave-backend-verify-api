@@ -1,0 +1,22 @@
+{
+  "name": "raveappbackend",
+  "version": "1.0.0",
+  "description": "Rave React Native Backend For Payment verification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Rave",
+    "Native",
+    "Payment"
+  ],
+  "author": "MaestroJolly",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
