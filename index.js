@@ -21,7 +21,7 @@ app.post('/api', function(req, res){
             url:'https://ravesandboxapi.flutterwave.com/flwv3-pug/getpaidx/api/v2/verify',
             json: {
             txref:req.body.txref,
-            SECKEY: "FLWSECK-61037cfe3cfc53b03e339ee201fa98f5-X"
+            SECKEY: "FLWSECK_TEST-afa4f993af3695bdef2e9d22e746b7c1-X"
                 },
             headers: {
                 'Content-Type': 'application/json'
